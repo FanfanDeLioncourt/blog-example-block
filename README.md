@@ -1,3 +1,5 @@
+hello bliblibli
+
 # Blog Example Block (for [kintohub](http://www.kintohub.com/))
 
 > This is an example project used in kintohub, is used with [Auth Example Block](https://github.com/kintohub/auth-example-block)
