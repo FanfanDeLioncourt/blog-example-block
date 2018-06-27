@@ -17,7 +17,7 @@ const server = new Hapi.server({
  */
 server.route({
   method: 'POST',
-  path: '/articles',
+  path: '/helloworld',
   handler(request, h) {
     const { title } = request.payload
     const userId = request.headers['authexample-id']
