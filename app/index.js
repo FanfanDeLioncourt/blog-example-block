@@ -25,7 +25,7 @@ server.route({
     if (!userId || !name) {
       return h.response({ error: 'You must login first' }).code(401)
     }
-    return h.response({ "Hello " title "How are you doing on this mighty fine day", userId, name })
+    return h.response({ title: "Hello " + title + " How are you doing on this mighty fine day", userId, username: name })
   }
 })
 
