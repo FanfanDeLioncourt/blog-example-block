@@ -5,7 +5,7 @@ const server = new Hapi.server({
 })
 
 /**
- * @api {POST} /helloworld helloworld service hacked from blogexample
+ * @api {post} /helloworld helloworld service hacked from blogexample
  * @apiName CreateArticle
  * @apiParam (Body) {String} title article title
  * @apiHeader (Session) {String} [authexample-id] logged in user id
